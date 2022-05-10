@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;Assignment3&apos;&#x0A;- Original project: &apos;Assignment3&apos;&#x0A;- Original elements:&#x0A;     Assignment3/src/main/java/client&#x0A;     Assignment3/src/main/java/com.entity&#x0A;     beans.xml&#x0A;     log4j.properties" description="Delete elements" element1="src/main/java/beans.xml" element2="src/main/java/log4j.properties" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.entity" element4="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com" element5="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;client" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1649735913654" subPackages="false" version="1.0"/>
+</session>

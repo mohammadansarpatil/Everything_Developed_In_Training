@@ -1,0 +1,661 @@
+!SESSION 2021-08-07 18:30:22.802 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-07 18:30:47.064
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-07 18:30:47.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@780a91d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cfab340,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-07 18:38:10.485
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-08-07 18:47:42.649 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-07 18:47:51.558
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-07 18:47:51.558
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d5c160e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8afce3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-07 18:48:55.434
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-07 18:50:48.208
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-07 18:50:48.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-07 18:50:48.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-07 18:50:48.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-07 18:50:48.210
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY Activator 1 0 2021-08-07 18:50:48.772
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:48.791
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:48.816
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:48.818
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:49.397
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:49.403
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:49.405
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:50.629
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:51.228
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:51.228
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:51.228
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:51.229
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:51.230
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:57.442
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:57.442
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:57.442
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:58.004
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:50:58.037
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:51:01.758
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-jdbc:2.1.4.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.4.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.4.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:51:01.759
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.4.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:51:01.759
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.4.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:51:41.926
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-jdbc:2.1.4.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.4.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.4.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:51:41.926
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.4.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:51:41.926
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.4.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:52:02.499
+!MESSAGE Could not download sources for org.openjfx:javafx.base:11.0.0-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.openjfx:javafx.base:jar:sources:11.0.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.openjfx:javafx.base:jar:sources:11.0.0-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:02.499
+!MESSAGE Could not resolve artifact org.openjfx:javafx.base:jar:sources:11.0.0-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:02.499
+!MESSAGE Missing org.openjfx:javafx.base:jar:sources:11.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:52:02.501
+!MESSAGE Could not download javadoc for org.openjfx:javafx.base:11.0.0-SNAPSHOT:linux
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.openjfx:javafx.base:jar:javadoc:11.0.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.openjfx:javafx.base:jar:javadoc:11.0.0-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:02.501
+!MESSAGE Could not resolve artifact org.openjfx:javafx.base:jar:javadoc:11.0.0-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:02.501
+!MESSAGE Missing org.openjfx:javafx.base:jar:javadoc:11.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:52:08.192
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-log4j2:2.1.1.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:sources:2.1.1.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-log4j2:jar:sources:2.1.1.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:08.192
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:sources:2.1.1.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:08.192
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-log4j2:jar:sources:2.1.1.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-07 18:52:18.598
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-log4j2:2.1.1.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:javadoc:2.1.1.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-log4j2:jar:javadoc:2.1.1.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:18.598
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:javadoc:2.1.1.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-07 18:52:18.598
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-log4j2:jar:javadoc:2.1.1.RELEASE
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.733
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.734
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.735
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.738
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.738
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.739
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.739
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.806
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.807
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.807
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.814
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.814
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.815
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.951
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.952
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.952
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.956
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.957
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:18.957
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.122
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.123
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.124
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.124
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.125
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.244
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.264
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.265
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.266
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.266
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.267
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.360
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:52:19.605
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:17.793
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:17.796
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:17.797
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:17.797
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:17.799
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:20.027
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:20.027
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:20.028
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:20.043
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:20.046
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.302
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.303
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.304
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.322
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.325
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.949
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.950
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.951
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.958
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:28.962
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:33.245
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:33.246
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:33.249
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:33.249
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:33.250
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:34.302
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:34.303
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:34.303
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:34.304
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2021-08-07 18:56:34.304
+!MESSAGE Has main method computation for project 'demo-model'
+!SESSION 2022-03-14 14:04:23.837 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-14 14:07:53.582
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-03-14 14:08:16.076
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-14 14:08:16.076
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@349996a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78aa1753,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY Activator 1 0 2022-03-14 14:08:40.456
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:08:40.464
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2022-03-14 14:08:40.465
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:08:40.470
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:08:40.472
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:12.549
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:12.549
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:12.554
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.456
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.458
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.458
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.459
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.460
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.461
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.462
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.463
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.463
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.649
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:14.659
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:16.492
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:16.493
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:16.493
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:16.497
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:16.500
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:18.296
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:18.297
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:18.297
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:18.297
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2022-03-14 14:09:18.302
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY org.eclipse.ui 2 2 2022-03-14 14:13:55.226
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-03-14 14:45:09.884 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-03-14 14:46:29.917
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-14 14:46:29.917
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@782dc5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35f22eef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.420
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.435
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.443
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.447
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.454
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.686
+!MESSAGE Has main method computation for project 'demo-service'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.695
+!MESSAGE Has main method computation for project 'demo-model'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:36.696
+!MESSAGE Has main method computation for project 'demo-dao'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:39.367
+!MESSAGE Has main method computation for project 'demo-web'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:39.375
+!MESSAGE Has main method computation for project 'demo-generator'
+
+!ENTRY org.eclipse.ui 2 2 2022-03-14 14:49:20.872
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

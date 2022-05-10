@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.example.pwcspringMVC&apos; to &apos;pwc-spring-MVC-orm-Address/src/main/java&apos;&#x0A;- Original project: &apos;pwc-spring-MVC-orm-student&apos;&#x0A;- Destination element: &apos;pwc-spring-MVC-orm-Address/src/main/java&apos;&#x0A;- Original element: &apos;pwc-spring-MVC-orm-student/src/main/java/com.example.pwcspringMVC&apos;" description="Copy package" destination="=pwc-spring-MVC-orm-Address/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.pwcspringMVC" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1650882605030" version="1.0"/>
+</session>

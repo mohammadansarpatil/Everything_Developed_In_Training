@@ -1,0 +1,31 @@
+package com.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Dao.AppDao;
+import com.Model.Address;
+
+@Service
+public class AddressService {
+
+	@Autowired
+	private AppDao appDao;
+	
+	List<Address> address = new ArrayList<Address>();
+	
+	public void addAddress(Address add) {
+		appDao.save(add);
+	}
+	
+	public List<Address> showAllAddress(){
+		List<Address> address = (List<Address>)appDao.findAll();
+		return address;
+	}
+	
+	
+	
+}

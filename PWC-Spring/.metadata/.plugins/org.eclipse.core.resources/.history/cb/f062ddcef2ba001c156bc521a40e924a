@@ -1,0 +1,13 @@
+package com.example.pwcspringMVC;
+
+public class AppService {
+	
+	public boolean loginValid(Login login) {
+		
+		if(login.getUserName().equals("admin") && login.getPassword().equals("manager")) {
+			return true;
+		}
+		return false;		
+	}
+
+}

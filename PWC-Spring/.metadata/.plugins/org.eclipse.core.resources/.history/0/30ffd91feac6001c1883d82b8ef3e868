@@ -1,0 +1,58 @@
+package com.stackroute.keepnote;
+
+import java.util.Collections;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/*
+ * The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration 
+ * and @ComponentScan with their default attributes
+ */
+
+@SpringBootApplication
+@ComponentScan("com")
+@EntityScan("com")
+@EnableSwagger2
+public class UserServiceApplication {
+
+	/*
+	 * 
+	 * You need to run SpringApplication.run, because this method start whole spring
+	 * framework. Code below integrates your main() with SpringBoot.
+	 */
+	public static void main(String[] args) {
+		SpringApplication.run(UserServiceApplication.class, args);
+	}
+	
+	@Bean
+    public Docket swaggerConfiguration() {
+    	return new Docket(DocumentationType.SWAGGER_2)
+    			.select()
+    			.apis(RequestHandlerSelectors.basePackage("com"))
+    			.build()
+    			.apiInfo(apiDetails());
+    }
+    
+    private ApiInfo apiDetails() {
+    	return new ApiInfo("User Application",
+    			"Sample CRUD app for PWC India",
+    			"1.0",
+    			"Free to Use",
+    			new springfox.documentation.service.Contact("Ansar", "http://www.abc.com", "ansar@email.com"),
+    			"Api Licence",
+    			"http://www.abc.com",
+    			Collections.emptyList()
+    			);
+    }
+	
+}

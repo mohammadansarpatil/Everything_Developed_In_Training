@@ -1,0 +1,13 @@
+package com.Dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.Model.Address;
+
+import org.springframework.data.repository.CrudRepository;
+
+
+@Repository
+public class AppDao extends CrudRepository<Address, Integer>{
+
+}

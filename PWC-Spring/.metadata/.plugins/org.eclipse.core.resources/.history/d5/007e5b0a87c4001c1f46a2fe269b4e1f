@@ -1,0 +1,37 @@
+package com.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.Model.Address;
+import com.Service.AddressService;
+
+@RestController
+@RequestMapping("/mainapp")
+public class AddressController {
+	
+	@Autowired
+	private AddressService service;
+	
+	@PostMapping("/addaddress")
+	public String addAddress(@RequestBody Address add) {
+		add.getCityName();
+		add.getState();
+		add.getPincode();
+		service.addAddress(add);
+		return "Address Added";
+	}
+	
+	@GetMapping("/loadaddress")
+	public List<Address> showAllAddress(){
+		List<Address> add= service.showAllAddress();
+		return add;
+	}
+
+}
